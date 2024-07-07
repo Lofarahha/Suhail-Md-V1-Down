@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: Suhail-Md-V1-Down
+    env: node
+    branch: main
+    repo: https://github.com/SuhailTechInfo/Suhail-Md-V1-Down
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: BOT_NAME
+        sync: 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 𝛭𝐷
+      - key: DATABASE_URL
+        sync: false
+      - key: HANDLERS
+        sync: false
+      - key: MODE
+        sync: false
+      - key: OWNER_NAME
+        sunc: 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈
+      - key: OWNER_NUMBER
+        sync: false
+      - key: PACK_AUTHER
+        sync: 𓆩‎✘À𝖑è𝖝 𝕻ì𝖐ù✘𓆪
+      - key: SESSION_ID
+       synce: false
+      - key: SUDO
+       synce: false
+      - key: WARN_COUNT
+       synce: false
+      - key: WELCOME
+       synce: false
+       
